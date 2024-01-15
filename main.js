@@ -1,1 +1,3 @@
-console.log("Hello Node.js")
+const fs = require('fs');
+
+fs.writeFileSync('test.txt', 'this is a test');
